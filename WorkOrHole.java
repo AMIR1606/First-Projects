@@ -6,7 +6,7 @@ import java.util.Scanner;
 
       Scanner input = new Scanner(System.in);
           System.out.println("Gunu gir: ");
-      String day = input.nextLine();
+      String day = input.next();
 
       switch (day) {
 
