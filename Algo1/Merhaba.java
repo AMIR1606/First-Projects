@@ -1,11 +1,11 @@
 public class Merhaba {
 
-  public static void main(String[] args){
+    public static void main(String[] args){
 
-    //Konsol penceresinde selamlama
+        //Konsol penceresinde selamlama
 
-      System.out.println("Merhaba, Dunya!");
+        System.out.println("Merhaba, Dunya!");
 
-  }
+    }
     
 }

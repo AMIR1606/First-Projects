@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-  public class firat {
+public class firat {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
     Scanner input = new Scanner (System.in);
         System.out.println("Kelimeyi gir: ");
     String sozcuk = input.nextLine();
@@ -27,6 +27,6 @@ import java.util.Scanner;
     System.out.print(sozcuk.charAt(4));
     System.out.print(sozcuk.charAt(4));
 
-   }
+  }
 
 }

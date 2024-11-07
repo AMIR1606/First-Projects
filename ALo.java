@@ -1,10 +1,9 @@
 import java.util.Scanner;
 public class ALo {
     
-
-  public static void main(String[] args) {
-   
+    public static void main(String[] args) {   
     char letter = 'a';
+    
     Scanner word = new Scanner(System.in);    
 
     while (letter != 'b') {

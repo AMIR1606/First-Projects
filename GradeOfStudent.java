@@ -1,15 +1,13 @@
+// Girilen bir notun Harf durumunu inceleyen kod.
 import java.util.Scanner;
-
 public class GradeOfStudent {
-
     public static void main(String[] args) {
 
-    Scanner input = new Scanner(System.in);
-
+        Scanner input = new Scanner(System.in);
             System.out.print("Notu giriniz: ");
         int not = input.nextInt();
         
-    if (not >= 90 && not <= 100) 
+        if (not >= 90 && not <= 100)
             System.out.println("A");
         
         else if (not >= 80 && not < 90)
@@ -26,7 +24,5 @@ public class GradeOfStudent {
 
         else 
             System.out.println("Girdiginiz sayi not degil. ");
-
     }
-
 }
