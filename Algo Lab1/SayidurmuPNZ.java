@@ -1,5 +1,5 @@
+// Girilen bir sayının Pozitif , Negatif veya Sıfır olduğunu inceleyen kod.
 import java.util.Scanner;
-
 public class SayidurmuPNZ {
 
     public static void main(String[] argv) {

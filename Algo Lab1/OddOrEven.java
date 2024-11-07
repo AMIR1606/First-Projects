@@ -1,3 +1,4 @@
+// Girilen bir sayının Çift yada Tek olduğunu inceleyen kod.
 import java.util.Scanner;
 
 public class OddOrEven {

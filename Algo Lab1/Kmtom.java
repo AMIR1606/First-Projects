@@ -1,3 +1,4 @@
+//  Girilen mesafenin Kilometreden Metreye dönüştüren kod.
 import java.util.Scanner;
 
 public class Kmtom {
