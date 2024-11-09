@@ -16,7 +16,12 @@ public class GradeAverage {
             count++;
             }
         }
-                System.out.println("Average =" + sum/count);
- 
+        if (count == 0 ) {
+                System.out.println("Average = 0");
+        }
+        else {
+                System.out.println("Average = " + sum/count );
+        }
+
     }
 }
