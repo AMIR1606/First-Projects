@@ -1,16 +1,21 @@
 import java.util.Scanner;
-public class Dongu {
-    public static void main (String [] args) {
+
+public class Pyramid {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("sayi griniz: ");
+        System.out.print("asss ");
         int n = input.nextInt();
-        for (int i=0; i <= n; i++) {
-            for(int k = 0; k < n - i; k++){
+
+        for (int k = 1; k <= n; k++) {
+        
+            for (int i = n - k; i > 0; i--) {
                 System.out.print(" ");
             }
-            for (int j = 0; j <= i; j++){
+  
+            for (int j = 1; j <= (2 * k - 1); j++) {
                 System.out.print("*");
             }
+  
             System.out.println();
         }
     }
