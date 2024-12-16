@@ -10,7 +10,7 @@ public class ssss {
                 System.out.print(" ");
             }
             for (int j = 1; j <= (2 * k - 1); j++) {
-                System.out.println("*");
+                System.out.print("*");
             }
             
             System.out.println();

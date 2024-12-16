@@ -11,7 +11,7 @@ public class tttt {
             x = x*(i+1);
             System.out.println("\n");
             for (int j = 0; j < 4; j++){
-                System.out.print(x + " ");
+                System.out.print(x + "\t");
                 x -= y;
             }
             y += 1;
