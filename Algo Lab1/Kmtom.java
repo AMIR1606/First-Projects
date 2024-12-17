@@ -13,6 +13,6 @@ public class Kmtom {
     m = Mesafe * 1000;
         System.out.printf("%.2f m" , m);
 
+        input.close();
     }
-
 }

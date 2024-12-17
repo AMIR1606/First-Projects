@@ -13,5 +13,7 @@ public class OrnekSoru6 {
             kalori = adimSayisi * 45 / 500;
         }
             System.out.println("Yakilan Kalori Miktari: " + kalori);
-    }
+  
+            klaviye.close();
+        }
 }

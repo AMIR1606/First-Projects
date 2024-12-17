@@ -23,5 +23,6 @@ public class GradeAverage {
                 System.out.println("Average = " + sum/count );
         }
 
+        input.close();
     }
 }

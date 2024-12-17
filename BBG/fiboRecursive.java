@@ -10,6 +10,7 @@ public class fiboRecursive {
         for (int i = 1; i <= n; i++) {
             System.out.print(fibonacciRecursive(i) + ", ");
         }
+        input.close();
     }
     public static int fibonacciRecursive(int n) {
 

@@ -14,5 +14,7 @@ public class FxGx {
             g = 1.0 / (1.0 + x + x*x);
         }
         System.out.printf("F(X) = " + f + "\nG(x) = " + g);
+
+        input.close();
     }
 }

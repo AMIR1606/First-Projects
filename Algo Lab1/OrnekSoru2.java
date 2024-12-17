@@ -15,5 +15,7 @@ public class OrnekSoru2 {
         Vergi = Maas * 0.15;
         Net_Maas = Maas - (Pirim + Vergi);
             System.out.println("Sicil No, Pirim, Vergi, Net Maasi: " + Sicil_No + "," + Pirim + "," + Vergi + "," + Net_Maas);
-    }
+   
+            klaviye.close();
+        }
 }

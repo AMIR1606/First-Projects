@@ -17,5 +17,6 @@ public class Matris {
             }
             y += 1;
         }
+        input.close();
     }
 }

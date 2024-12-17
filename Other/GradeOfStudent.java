@@ -24,5 +24,7 @@ public class GradeOfStudent {
 
         else 
             System.out.println("Girdiginiz sayi not degil. ");
+
+            input.close();
     }
 }

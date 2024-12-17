@@ -9,5 +9,6 @@ public class SK {
         } else {
             System.out.println("Sayin karekoku = " + Math.sqrt(num));
         }
+        input.close();
     }
 }

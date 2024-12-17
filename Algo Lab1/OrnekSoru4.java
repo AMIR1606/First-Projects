@@ -10,5 +10,6 @@ public class OrnekSoru4 {
             TM = TM + Maas;
             System.out.println(s + " Kisinin maas toplami: " + TM);
         }
+        klaviye.close();
     }
 }

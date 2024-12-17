@@ -29,7 +29,8 @@ public class EBsayi {
         }
 
             System.out.print("The bigger number is = " + Bigger);
-        
+
+            input.close();
     }
     
 }

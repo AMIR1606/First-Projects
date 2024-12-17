@@ -10,6 +10,7 @@ public class FiboIterative {
         for (int i = 1; i <= n; i++) {
             System.out.print(fibonacciIterative(i) + ", ");
         }
+        input.close();
     }
     public static int fibonacciIterative(int n) {
 

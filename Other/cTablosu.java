@@ -20,5 +20,6 @@ public class cTablosu {
 
             System.out.println();
         }
+        input.close();
     }
 }

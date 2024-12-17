@@ -12,6 +12,7 @@ public class OrnekSoru1 {
         int Maas;
         Maas = Calisma_Saati * Saatlik_Ucret;
             System.out.println("Sicil No, Maas: " + Sicil_No + "=" + Maas);
-    }
-    
+
+            klaviye.close();
+        }
 }

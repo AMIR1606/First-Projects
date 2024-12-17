@@ -29,5 +29,6 @@ public class HesapMakinesi {
         } else {
             System.out.println("yanlis islem girdiniz.");
         }
+        input.close();
     }
 }

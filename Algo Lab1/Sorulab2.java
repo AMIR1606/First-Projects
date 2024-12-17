@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Sorulab2 {
     public static void main (String[] args) {
-        int n = 0,aralik, i;
+        int aralik, i;
         Scanner input = new Scanner(System.in);
         System.out.println("Lutfen makine sayisini griniz: ");
         int MS = input.nextInt();
@@ -19,5 +19,7 @@ public class Sorulab2 {
             System.out.print(i+", ");
             i = i - aralik;
         }
+
+        input.close();
     }
 }

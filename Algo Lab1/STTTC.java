@@ -18,5 +18,7 @@ public class STTTC{
         }
         fark = Math.abs(Tcift - Ttek);
         System.out.println("Basamak sayisi = " + j + "\nTek rakamlarin toplami = " + Ttek + "\ncift rakamlarin toplami = " + Tcift + "\nArasindaki fark = " + fark);
+
+        input.close();
     }
 }

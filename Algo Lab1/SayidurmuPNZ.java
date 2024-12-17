@@ -18,6 +18,6 @@ public class SayidurmuPNZ {
         else
             System.out.println("The numer its zero ");       
 
+            input.close();
     }
-
 }

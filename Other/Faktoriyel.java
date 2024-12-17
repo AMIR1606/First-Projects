@@ -13,5 +13,6 @@ public class Faktoriyel{
         }else {
             System.out.println("Sayin faktoriyeli = " + faktoriyel);
         }
+        input.close();
     }
 }

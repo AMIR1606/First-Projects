@@ -15,10 +15,10 @@ public class MT35 {
         
         sum = sum + maas;
         count++;
-
+        input.close();
         }
             System.out.println("maaslarin toplami = " + sum);
 
+            
     }
-
 }

@@ -17,5 +17,6 @@ public class OrnekSoru3 {
         else {
             System.out.println("B Buyuktur");
         }
+        klaviye.close();
     }    
 }

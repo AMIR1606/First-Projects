@@ -11,5 +11,7 @@ public class GM {
             maas = 15 + 50 * 2 + (satis-50) * 3;
         }
         System.out.println("Gunluk ucret = " + maas + " TL");
+
+        input.close();
     }   
 }
