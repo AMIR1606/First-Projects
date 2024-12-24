@@ -8,7 +8,7 @@ public class Matris {
 
         for (int i = 0; i < sayi; i++){
             int x = 10, y = 2;
-            x = x*(i+1);
+            x *= (i+1);
             System.out.println("\n");
             
             for (int j = 0; j < 4; j++){

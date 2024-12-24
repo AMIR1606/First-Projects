@@ -6,10 +6,10 @@ public class asalSayi {
         Scanner input = new Scanner(System.in);
         System.out.println("asallik durmunu incelenecek sayiyi giriniz: ");
         int n = input.nextInt();
-atop:{
+
         if (n <= 1) {
             System.out.println("Girdiginiz sayi asal degildir.");
-            break atop;
+            return;
         }        
         for (int i = 2; i < n; i++) {
     
@@ -25,9 +25,6 @@ atop:{
             } else {
                 System.out.println("Girdiginiz sayi asal sayidir.");
             }
-        
-}
-
         input.close();
     }
 }
