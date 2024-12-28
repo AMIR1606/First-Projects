@@ -4,7 +4,7 @@ public class WorkOrHole {
     public static void main(String [] args) {
 
         Scanner input = new Scanner(System.in);
-            System.out.println("Gunu gir: ");
+        System.out.println("Gunu gir: ");
         String day = input.next();
 
         switch (day) {
@@ -24,7 +24,7 @@ public class WorkOrHole {
 
           default:
             System.out.println("Girilen gun hatali ");
-          break;
+          System.exit(1);
 
         }
         input.close();
