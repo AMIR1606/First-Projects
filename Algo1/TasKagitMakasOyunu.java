@@ -34,5 +34,6 @@ public class TasKagitMakasOyunu {
             System.out.println("Yanlis giris. ");
         }
         System.out.println(bilgisayar);
+        input.close();
     }
 }

@@ -1,18 +1,14 @@
 import java.util.Scanner;
-public class OrnekSoru8 {
+public class Ornek11 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Baslangic degerini girniz: ");
+        System.out.println("Lutfen baslangic, adet ve artis miktarini giriniz giriniz: ");
         int baslangic = input.nextInt();
-        System.out.print("adet miktarini giriniz: ");
         int adet = input.nextInt();
-        System.out.print("artis miktarini giriniz: ");
         int artis = input.nextInt();
-
-        while (adet > 0) {
-            System.out.println(baslangic);
+        for (; adet > 0; adet--) {
+            System.out.print(baslangic + ",");
             baslangic += artis;
-            adet--;
         }
         input.close();
     }

@@ -3,11 +3,12 @@ public class SayiTahminOyunu {
     public static void main(String[] args) {
         int i = 1, girdi = 0;
         Scanner input = new Scanner(System.in);
-
+        
         System.out.println("Aranin miktarini giriniz: ");
         int miktar = input.nextInt();
         System.out.println("Aranin baslangic degerini giriniz:");
         int baslangic = input.nextInt();
+        
         int rastgeleSayi = (int) (Math.random() * miktar) + baslangic;
 
         while (girdi != rastgeleSayi) {

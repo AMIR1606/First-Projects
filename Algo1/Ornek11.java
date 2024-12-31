@@ -14,5 +14,6 @@ public class Ornek11 {
             }
         }
         System.out.println("Sayilarin ebob'u = " + ebob);
+        input.close();
     }
 }

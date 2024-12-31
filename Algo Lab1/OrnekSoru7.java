@@ -19,5 +19,6 @@ public class OrnekSoru7 {
             }
         }
         System.out.println(sonuc);
+        input.close();
     }
 }
