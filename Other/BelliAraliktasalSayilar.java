@@ -9,6 +9,7 @@ public class BelliAraliktasalSayilar {
 
         System.out.println("BItis degerini giriniz: ");
         int B = input.nextInt();
+        input.close();    
 
         for(; A <= B; A++) {
         if (A <= 1) {
@@ -33,6 +34,5 @@ public class BelliAraliktasalSayilar {
                 System.out.println(A + " Sayisi asal sayidir.");
             }
         }
-        input.close();    
     }
 }

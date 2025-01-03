@@ -6,6 +6,7 @@ public class asalSayi {
         Scanner input = new Scanner(System.in);
         System.out.println("asallik durmunu incelenecek sayiyi giriniz: ");
         int n = input.nextInt();
+        input.close();
 
         if (n <= 1) {
             System.out.println("Girdiginiz sayi asal degildir.");
@@ -25,6 +26,5 @@ public class asalSayi {
             } else {
                 System.out.println("Girdiginiz sayi asal sayidir.");
             }
-        input.close();
     }
 }

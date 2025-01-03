@@ -10,19 +10,16 @@ public class NotlarOrtalamasi {
         double toplam = 0;
         int n;
         Scanner input = new Scanner(System.in);
-        {
         System.out.print("\nogrenci sayisini giriniz: ");
         n = input.nextInt();
-        }
         if(n <= 0) {
             System.out.println("En az bir ogrenci olmali. ");
             return;
         }
         double dizi[] = new double[n];
-
         for (int i = 0; i < n; i++) {
             System.out.print("\n" + (i + 1) + ". Ogrencinin vize notunu giriniz: ");
-            double Vize = input.nextDouble();
+            double Vize = input.nextDouble(); 
             if (Vize < 0 || Vize > 100) {
                 System.out.println("Yanlis not girdiniz. ");
                 return;
@@ -34,7 +31,6 @@ public class NotlarOrtalamasi {
                 return;
             }
             dizi[i] = (Vize * 0.4) + (Final * 0.6);
-
             if (Final < 50){
                 System.out.println(i + 1 + ". Ogrencinin notu = " + dizi[i] + "\tKaldi");
             }
@@ -46,7 +42,7 @@ public class NotlarOrtalamasi {
                 }
             }
             toplam += dizi[i];
-        }    
+        }
         double max = dizi[0], min = dizi[0];
         for (int k = 0; k < n; k++){
             if (dizi[k] > max) {
@@ -59,7 +55,6 @@ public class NotlarOrtalamasi {
         System.out.println("\nNotlarin ortalamasi = " + toplam / n);
         System.out.println("\nEn yuksek not = " + max);
         System.out.println("En dusuk not = " + min);
-
         input.close();
     }
 }

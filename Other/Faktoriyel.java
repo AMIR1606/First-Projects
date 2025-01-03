@@ -5,6 +5,7 @@ public class Faktoriyel{
         Scanner input = new Scanner(System.in);
         System.out.print("Faktoryeli hesaplanacak sayiyi giiniz: ");
         int num = input.nextInt();
+        input.close();
         for(;num > 0; num--){
             faktoriyel = faktoriyel * num;
         }
@@ -13,6 +14,5 @@ public class Faktoriyel{
         }else {
             System.out.println("Sayin faktoriyeli = " + faktoriyel);
         }
-        input.close();
     }
 }

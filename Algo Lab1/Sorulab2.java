@@ -7,7 +7,7 @@ public class Sorulab2 {
         int MS = input.nextInt();
         System.out.println("Lutfen ay numarasini giriniz: ");
         int AY = input.nextInt();
-
+        input.close();
         if (AY > 2 && AY < 9 ){
             i = 480;
             aralik = 45;
@@ -19,7 +19,5 @@ public class Sorulab2 {
             System.out.print(i+", ");
             i = i - aralik;
         }
-
-        input.close();
     }
 }
