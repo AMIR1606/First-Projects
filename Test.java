@@ -1,9 +1,5 @@
-import java.util.Scanner;
-
 public class Test {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int giris = input.nextInt();
-        System.out.println(giris);
+        System.out.println("Hello World.");
     }
 }
