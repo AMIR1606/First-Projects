@@ -21,7 +21,7 @@ public class AdSoyadKareUYazdirma {
         //Soyadin girilmesi
         System.out.println("Soyadizi giriniz: ");
         String Soyad = input.nextLine();
-
+        input.close();
         //Adinin 12 katina tmamlama
         while (Ad.length() % 12 != 0) {
             Ad += "*";

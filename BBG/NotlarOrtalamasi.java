@@ -55,6 +55,5 @@ public class NotlarOrtalamasi {
         System.out.println("\nNotlarin ortalamasi = " + toplam / n);
         System.out.println("\nEn yuksek not = " + max);
         System.out.println("En dusuk not = " + min);
-        input.close();
     }
 }

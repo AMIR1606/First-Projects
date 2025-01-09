@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ornek11 {
+public class Ornek20 {
     public static void main(String[] args) {
         Scanner giris = new Scanner(System.in);
         System.out.println("Lutfen baslangic, adet ve artis miktarini giriniz giriniz: ");
