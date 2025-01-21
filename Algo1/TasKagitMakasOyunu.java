@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class TasKagitMakasOyunu {
     public static void main(String[] args) {
-        int bilgisayar = (int) (Math.random () * 3)+ 0;
+        int bilgisayar = (int) (Math.random () * 3);
         Scanner input = new Scanner(System.in);
         System.out.print("tas (0), kagit (1) ve makas (2) hangisi?: ");
         int oyuncu = input.nextInt();

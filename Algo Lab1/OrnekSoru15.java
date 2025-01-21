@@ -6,5 +6,4 @@ public class OrnekSoru15 {
             System.out.print(j + ";");
         }
     }
-    
 }

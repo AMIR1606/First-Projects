@@ -1,4 +1,5 @@
-//Girilen bir sayinin tek bsamaklarin toplamini, cift basamaklarin toplamini ve arasaindaki farki mutlak degerini ve basamak sayisini veren kod
+//Girilen bir sayinin tek bsamaklarin toplamini,cift basamaklarin toplamini
+//ve arasaindaki farki mutlak degerini ve basamak sayisini veren kod
 import java.util.Scanner;
 public class STTTC{
     public static void main(String []args) {
